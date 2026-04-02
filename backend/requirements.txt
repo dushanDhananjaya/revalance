@@ -1,0 +1,51 @@
+# ============================================
+# Revalance Backend Dependencies
+# ============================================
+# This file lists all the Python packages our
+# backend needs. Each package does something:
+
+# --- Web Framework ---
+# FastAPI: A modern web framework for building APIs
+# uvicorn: The server that runs our FastAPI app
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# --- Database ---
+# SQLAlchemy: Lets us talk to databases using Python (ORM)
+# Alembic: Manages database schema changes (migrations)
+# psycopg2-binary: PostgreSQL driver for Python
+sqlalchemy==2.0.36
+alembic==1.14.1
+psycopg2-binary==2.9.10
+
+# --- Caching & Real-time ---
+# redis: Python client for Redis (fast in-memory cache)
+# python-socketio: WebSocket support for real-time updates
+redis==5.2.1
+python-socketio==5.12.1
+
+# --- Configuration ---
+# pydantic-settings: Type-safe settings from environment variables
+# python-dotenv: Load .env files into environment
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# --- ML / Data Science ---
+# pandas: Data manipulation (tables, CSVs)
+# numpy: Numerical computing (arrays, math)
+# scikit-learn: Machine learning (Random Forest, etc.)
+# joblib: Save/load ML models to disk
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+joblib==1.4.2
+pyarrow==19.0.1
+
+# --- Testing ---
+# pytest: Testing framework
+# httpx: Async HTTP client (for testing FastAPI)
+pytest==8.3.4
+httpx==0.28.1
+
+# --- Utilities ---
+python-multipart==0.0.20
