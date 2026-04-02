@@ -1,0 +1,32 @@
+{
+  "training_summary": {
+    "n_episodes": 1000,
+    "final_avg_reward_50": 228.53720000000004,
+    "best_avg_reward_50": 235.67520000000002,
+    "final_epsilon": 0.01
+  },
+  "evaluation": {
+    "ai_avg_reward": 227.6434,
+    "random_avg_reward": 206.92726666666667,
+    "stay_avg_reward": -1104.2133999999999,
+    "improvement_pct": 10.011311542960835,
+    "improvement_vs_stay_pct": 120.61588819697351,
+    "action_distribution": {
+      "Stay": 1454,
+      "Move_North": 490,
+      "Move_South": 380,
+      "Move_East": 1589,
+      "Move_West": 887
+    },
+    "top_zones": {
+      "137": 550,
+      "230": 539,
+      "114": 385,
+      "231": 335,
+      "158": 307,
+      "170": 277,
+      "164": 254,
+      "162": 244
+    }
+  }
+}
